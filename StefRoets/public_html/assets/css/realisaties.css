@@ -56,13 +56,13 @@ body {
   background: #222 url('../images/realisaties/Kerstmarkt/compressed/Kerstmarkt0.jpg');
 }
 .c-hero-flex__item:nth-child(2) {
-  background: #222 url('../images/realisaties/Paradise/HOOFDINGSAFBEELDING.jpg');
+  background: #222 url('../images/realisaties/Paradise/compressed/Paradise0.jpg');
 }
 .c-hero-flex__item:nth-child(3) {
-   background: #222 url('../images/realisaties/Klant1/compressed/HOOFDINGSAFBEELDING-min.jpg');
+   background: #222 url('../images/realisaties/Klant1/compressed/klant10.jpg');
 }
 .c-hero-flex__item:nth-child(4) {
-   background: #222 url('../images/realisaties/Klant2/compressed/HOOFDINGSAFBEELDING-min.jpg');
+   background: #222 url('../images/realisaties/Klant2/compressed/klant20.jpg');
 }
 .c-hero-flex__title {
   text-transform: uppercase;
