@@ -47,7 +47,6 @@ img.footer-image {
 
 @media (max-width: 960px) {
     section#footer-wrapper {
-     //visibility: hidden;
      max-height: 10px;
      position: float;
      font-size: 10px;

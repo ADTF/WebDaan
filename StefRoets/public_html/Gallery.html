@@ -81,6 +81,16 @@
 						<div class="description description--grid">..</div>
 					</a>
 				</div>
+                                <div class="grid__item" data-size="837x1280">
+					<a href="assets/images/realisaties/Kerstmarkt/compressed/kerstmarkt7.jpg" class="img-wrap"><img src="assets/images/realisaties/Kerstmarkt/compressed/kerstmarkt7.jpg" alt="img03" />
+						<div class="description description--grid">..</div>
+					</a>
+				</div>
+                                <div class="grid__item" data-size="837x1280">
+					<a href="assets/images/realisaties/Kerstmarkt/compressed/kerstmarkt8.jpg" class="img-wrap"><img src="assets/images/realisaties/Kerstmarkt/compressed/kerstmarkt8.jpg" alt="img03" />
+						<div class="description description--grid">..</div>
+					</a>
+				</div>
 			</div>
 			<!-- /grid -->
 			<div class="preview">
@@ -94,6 +104,8 @@
 					<img src="assets/images/realisaties/Kerstmarkt/compressed/kerstmarkt4.jpg" alt="05" />
 					<img src="assets/images/realisaties/Kerstmarkt/compressed/kerstmarkt5.jpg" alt="06" />
 					<img src="assets/images/realisaties/Kerstmarkt/compressed/kerstmarkt6.jpg" alt="07" />
+                                        <img src="assets/images/realisaties/Kerstmarkt/compressed/kerstmarkt7.jpg" alt="08" />
+                                        <img src="assets/images/realisaties/Kerstmarkt/compressed/kerstmarkt8.jpg" alt="09" />
 					<button class="action action--nav action--navnext"><i class="fa fa-chevron-right"></i><span class="text-hidden">Next</span></button>
 				</div>
 				<div class="description description--preview"></div>
@@ -106,70 +118,7 @@
 	<script src="assets/js/masonry.pkgd.min.js"></script>
 	<script src="assets/js/classie.js"></script>
 	<script src="assets/js/main.js"></script>
-	<script>
-		(function() {
-			var support = { transitions: Modernizr.csstransitions },
-				// transition end event name
-				transEndEventNames = { 'WebkitTransition': 'webkitTransitionEnd', 'MozTransition': 'transitionend', 'OTransition': 'oTransitionEnd', 'msTransition': 'MSTransitionEnd', 'transition': 'transitionend' },
-				transEndEventName = transEndEventNames[ Modernizr.prefixed( 'transition' ) ],
-				onEndTransition = function( el, callback ) {
-					var onEndCallbackFn = function( ev ) {
-						if( support.transitions ) {
-							if( ev.target != this ) return;
-							this.removeEventListener( transEndEventName, onEndCallbackFn );
-						}
-						if( callback && typeof callback === 'function' ) { callback.call(this); }
-					};
-					if( support.transitions ) {
-						el.addEventListener( transEndEventName, onEndCallbackFn );
-					}
-					else {
-						onEndCallbackFn();
-					}
-				};
-
-			new GridFx(document.querySelector('.grid'), {
-				imgPosition : {
-					x : 1,
-					y : -0.75
-				},
-				onOpenItem : function(instance, item) {
-					var win = {width: window.innerWidth, height: window.innerHeight};
-					instance.items.forEach(function(el) {
-						if(item != el) {
-							var delay = Math.floor(Math.random() * 130);
-							el.style.WebkitTransition = 'opacity .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1), -webkit-transform .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1)';
-							el.style.transition = 'opacity .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1), transform .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1)';
-							
-							var elOffset = el.getBoundingClientRect(),
-								elSize = {width : el.offsetWidth, height : el.offsetHeight};
-
-							el.style.WebkitTransform = 'translate3d(' + (win.width/2 - elOffset.left - elSize.width/2) + 'px,' + (win.height - elOffset.top - elSize.height/2) + 'px,0) scale3d(0,0,1)';
-							el.style.transform = 'translate3d(' + (win.width/2 - elOffset.left - elSize.width/2) + 'px,' + (win.height - elOffset.top - elSize.height/2) + 'px,0) scale3d(0,0,1)';
-							el.style.opacity = 0;
-						}
-					});
-				},
-				onCloseItem : function(instance, item) {
-					instance.items.forEach(function(el) {
-						if(item != el) {
-							el.style.WebkitTransition = 'opacity .3s, -webkit-transform .3s';
-							el.style.transition = 'opacity .3s, transform .3s';
-
-							el.style.WebkitTransform = 'translate3d(0,0,0) scale3d(1,1,1)';
-							el.style.transform = 'translate3d(0,0,0) scale3d(1,1,1)';
-							el.style.opacity = 1;
-
-							onEndTransition(el, function() {
-								el.style.transition = 'none';
-								el.style.WebkitTransform = 'none';
-							});
-						}
-					});
-				}
-			});
-		})();
-	</script>
+        <script src="assets/js/fancygallery.js"></script>
 </body>
 
 </html>
