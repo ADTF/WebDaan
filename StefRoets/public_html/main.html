@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Stef Roets</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/footer.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Stef Roets - Houtbewerking</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="main.html">Home</a></li>
+                <li><a href="visie.html">Visie</a></li>
+                <li><a href="realisaties.html">Realisaties</a></li>
+                <li><a href="main.html#contact-wrapper">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- First -->
+<div class="container-fluid bg-1 text-center">
+    <section id="logo">
+        <img id="logo-img" src="assets/images/logos/StefRoets_Logo_Wit_schaal.png"/>
+    </section>
+</div>
+
+
+<!-- Second -->
+<div class="container-fluid bg-2 text-center">
+    <section id="menu-wrapper">
+        <section class="menu-button" data-button-id="maatwerk">
+            <img class="menu-img" src="assets/images/logos/v6/compressed/meetlat-min.png"/>
+            <p class="menu-text">
+                Maatwerk
+            </p>
+            <section class="menu-description-old">
+                Uw droominterieur, daar maken we samen werk van. Van complete dressings tot venstertabletten of een eiken vloer: alles is mogelijk. Niet alleen zorgt hout voor een natuurlijke setting in uw woning, ook levert het sterke isolering. Resultaat: een forse besparing op uw energiefactuur!
+            </section>
+        </section>
+        <section class="menu-button" data-button-id="wood">
+            <img class="menu-img" src="assets/images/logos/v6/compressed/zaag-min.png"/>
+            <p class="menu-text">
+                Wood concepts for events
+            </p>
+            <section class="menu-description-old">
+                Hout is een natuurproduct, waarbij duurzaamheid en veelzijdigheid centraal staan. Geen enkele andere materiaalsoort die hout evenaart op vlak van budget en toegevoegde waarde op uw evenement.
+            </section>
+        </section>
+        <section class="menu-button" data-button-id="project">
+            <img class="menu-img" src="assets/images/logos/v6/compressed/huis-min.png"/>
+            <p class="menu-text">
+                Uw project, van a-z
+            </p>
+            <section class="menu-description-old">
+                Van gesprek tot realisatie: Stef Roets volgt u project van a-z op, waardoor u steeds op de hoogte bent. Vragen of opmerkingen? We zijn één oproep van elkaar verwijderd.
+            </section>
+        </section>
+</div>
+
+
+
+<!-- contact Container (Grid) -->
+<div class="container-fluid bg-contact text-center">
+   <div id="contact-wrapper">
+	<section id="content-wrapper-section">
+		<section id="contact-content-top">
+			<img id="contact-me-img" src="images/overig/11254141_1013072085410802_9183676178229202023_n.jpg"/>
+			<p id="contact-me-text">
+				Hallo! <br>Ik vatte mijn studie industriële wetenschappen aan, om later naar houttechnologie over te stappen. Vanaf mijn eerste tot mijn laatste project, staat kwaliteit op de eerste plaats. <br>Als enig contactpersoon begeleid ik u vanaf het eerste contact doorheen de ontwerpfase, de plaatsing en tot slot de opvolging. Zo weet u steeds waar u staat, en verloopt onze samenwerking optimaal.
+			</p>
+		</section>
+		<section id="contact-content-bottom">
+			<h1 id="contact-title">Contacteer mij:</h1>
+			<hr id="contact-line"/>
+			<section id="form-wrapper">
+				<form id="contact-form" method="post">
+					<section id="form-left">
+						<label class="form-label" for="input-6-0">Naam:</label>
+						<input type="text" class="form-input" name="input-6-0" id="input-6-0" placeholder="Naam" required/>
+						<hr class="form-input-line"/>
+						<label class="form-label" for="input-6-1">Email:</label>
+						<input type="email" class="form-input" name="input-6-1" id="input-6-1" placeholder="Email" required />
+						<hr class="form-input-line"/>
+						<label class="form-label" for="input-6-2">Telefoonnummer:</label>
+						<input type="text" class="form-input" name="input-6-2" id="input-6-2" placeholder="Telefoonnummer" required />
+						<hr class="form-input-line"/>
+					</section>
+					<section id="form-right">
+						<label class="form-label" for="input-5-0">Uw vraag:</label>
+						<textarea class="form-area" name="input-5-0" id="input-5-0" rows="1" placeholder="Uw vraag..." required></textarea>
+						<hr class="form-input-line"/>
+					</section>
+					<?php //include("form.php"); ?>
+					<input type="submit" value="verzenden" id="form-input-submit"/>
+					<section class="form-section-buttons" id="form-section-submit">
+						<div id="form-button-submit" class="form-button">
+							Verzenden
+						</div>
+					</section>
+					<section id="form-section-message" class="">
+						<p id="form-section-message-text">
+						
+						</p>
+					</section>
+				</form>
+			</section>
+		</section>
+	</section>
+</div>
+</div>
+
+<!-- Footer -->
+<section id="footer-wrapper">
+    <div id="footer-wrapper-inner">
+        BVBA Stef - Russelbeekstraat 5 - 3590 Diepenbeek - 0474 47 77 78 - <a href="mailto:info@stefroets.be" class="footer-link">info@stefroets.be</a> - <a href="http://www.facebook.com/stefroetsbvba" class="footer-link" target="_blank"><img class="footer-image" src="assets/images/icons/facebook.png"/></a>
+    </div>
+</section>
+
+</body>
+</html>

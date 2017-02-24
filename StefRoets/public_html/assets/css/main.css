@@ -1,0 +1,178 @@
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+p {font-size: 16px;}
+.margin {margin-bottom: 45px;}
+
+.bg-1 {
+    background-color: #000000; /* Black */
+    color: #ffffff;
+    width: 100%;
+    height: auto;
+}
+.bg-2 {
+    background: url('../images/background/main/compressed/Optimized-background-margin-4-min.jpg');
+    color: #ffffff;
+}
+.bg-contact {
+    background-color: #000000;
+    color: #555555;
+}
+.bg-4 {
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+#menu-img {
+    width: 300px;
+}
+
+/* ======================================= BUTTONS ======================================= */
+
+section#menu-wrapper {
+    width: 100%;
+    height: 35%;
+    /*margin-top: 10%;*/
+    /*padding-bottom: 25px;*/
+    /*background-color: yellow;*/
+
+    overflow: auto;
+
+    /*margin-top: 75px;*/
+    /*margin-bottom: 75px;*/
+    /*padding-top: 15px;*/
+    padding-top: 5%;
+}
+
+section.menu-button {
+    width: 25%;
+    height: 100%;
+    /*background-color: red;*/
+    /*left: 40%;
+    position: relative;
+    /*top: -100%;*/
+
+    float: left;
+    margin-left: 12.5%;
+    text-align: center;
+}
+
+section.menu-button:first-child {
+    margin-left: 0;
+}
+
+/*section.menu-button:first-child {
+	float: left;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+section.menu-button:last-child {
+	float: right;
+	position: relative;
+	left: 0;
+	top: -100%;
+}*/
+
+img.menu-img {
+    width: 70%;
+    margin-left: 15%;
+    display: block;
+}
+
+p.menu-text {
+    display: block;
+    margin-top: 10px;
+    color: white;
+    /*color: rgb(127, 78, 49);*/
+    /*font-weight: bold;*/
+    font-size: 32px;
+}
+
+section.menu-description-old {
+    font-size: 18px;
+    display: none;
+}
+
+section#menu-button-descriptions {
+    width: 100%;
+    /*height: 50px;*/
+    float: left;
+    clear: both;
+    margin-bottom: 0;
+}
+
+section.menu-description {
+    display: none;
+    margin-top: 25px;
+    padding-bottom: 15px;
+    /*background-color: red;*/
+}
+
+section.menu-button:hover img {
+    -webkit-transform:scale(1.03); /* Safari and Chrome */
+    -moz-transform:scale(1.03); /* Firefox */
+    -ms-transform:scale(1.03); /* IE 9 */
+    -o-transform:scale(1.03); /* Opera */
+    transform:scale(1.03);
+}
+
+section.menu-button img {
+    -webkit-transition: all 0.5s ease; /* Safari and Chrome */
+    -moz-transition: all 0.5s ease; /* Firefox */
+    -ms-transition: all 0.5s ease; /* IE 9 */
+    -o-transition: all 0.5s ease; /* Opera */
+    transition: all 0.5s ease;
+}
+
+
+/* ========================================= LOGO ========================================= */
+
+section#logo {
+    /*background-color: yellow;*/
+    padding: 0;
+    /*margin-top: 18%;*/
+    /*padding-top: 18%;*/
+}
+
+
+img#logo-img {
+    width: 25%;
+    height: 100%;
+    margin-top: 2%;
+}
+
+div#logo-arrow-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -40px;
+}
+
+img#logo-arrow {
+    height: 50px;
+    opacity: 0.5;
+}

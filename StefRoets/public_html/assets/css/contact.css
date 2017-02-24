@@ -1,0 +1,250 @@
+/* ========================================= MAIN ======================================== */
+
+body {
+	/*height: 100vh;*/
+	color: rgb(224, 224, 224);
+}
+
+div#contact-wrapper {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-top: 20px;
+	padding-bottom: 70px;
+	dipslay: block;
+}
+
+/* ======================================== LAYOUT ======================================= */
+
+section#contact-content-top {
+	width: 100%;
+	/*background-color: red;*/
+	display: none;
+	/*overflow: auto;*/
+}
+
+section#contact-content-bottom {
+	width: 100%;
+	/*height: 45%;
+	height: 500px;*/
+	/*margin-top: 40px;*/
+	/*background-color: red;*/
+	/*margin-top: 5%;*/
+}
+
+/* ========================================= TOP ========================================= */
+
+p#contact-me-text {
+	margin-bottom: 15px;
+	width: 74%;
+	float: left;
+}
+
+img#contact-me-img {
+	width: 24%;
+	float: left;
+	margin-right: 2%;
+}
+
+/* ======================================== BOTTOM ======================================= */
+
+h1#contact-title {
+	font-size: 30px;
+	display: none;
+}
+
+hr#contact-line {
+	margin-bottom: 10px;
+	
+	display: none;
+}
+
+section#form-left {
+	float: left;
+	width: 50%;
+	margin: 0;
+	/*background-color: red;*/
+}
+
+section#form-right {
+	float: left;
+	width: 50%;
+	margin: 0;
+	/*background-color: red;*/
+}
+
+/* ========================================= FORM ======================================== */
+
+section#form-wrapper {
+	/*display: table;*/
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	
+	/*height: 400px;*/
+	/*overflow: scroll;*/
+	overflow: auto;
+}
+
+label.form-label {
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+input.form-input {
+	display: table-cell;
+	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 10px;
+	font-size: 18px;
+	
+	border: none;
+	background-color: transparent;
+	color: white;
+}
+
+input.form-input:focus + hr, textarea.form-area:focus + hr {
+	border: 1px solid indianred;
+	color: indianred;
+}
+
+input.form-input:focus {
+	outline: none;
+}
+
+input.form-input-radio {
+	color: white;
+	
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-left: 10px;
+}
+
+label.form-label-radio {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+textarea.form-area {
+	display: table-cell;
+	width: 100%;
+	/*height: 127px;*/
+	height: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: none;
+	padding: 10px;
+	font-size: 18px;
+	background-color: transparent;
+	
+	outline: none;
+	resize: none;
+	overflow: auto;
+	overflow: hidden;
+	
+	color: white;
+}
+
+input#form-submit {
+	margin-top: 10px;
+	text-transform: uppercase;
+	background-color: rgb(66, 40, 23);
+	border: none;
+	color: white;
+}
+
+input#form-submit:hover {
+	background-color: rgba(66, 40, 23, 0.7);
+}
+
+input#form-submit {
+	display: none;
+}
+
+/* ========================================= FORM ======================================== */
+
+section.form-section-sliding {
+	height: 400px;
+}
+
+section.form-section-sliding-active {
+	display: block;
+}
+
+div.form-button  {
+	text-transform: uppercase;
+	margin-top: 10px;
+	text-transform: uppercase;
+	background-color: rgb(66, 40, 23);
+	border: none;
+	color: white;
+	width: 100%;
+	font-size: 18px;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	float: left;
+	clear: both;
+}
+
+div.form-button:hover {
+	background-color: rgb(64, 47, 36);
+}
+
+div#form-button-submit {
+	
+}
+
+section.inactive {
+	display: none;
+}
+
+input#form-input-submit {
+	display: none;
+}
+
+hr.form-input-line {
+	border: grey solid 1px;
+	margin-top: 2px;
+	width: 95%;
+}
+
+/* ====================================== MESSAGE ======================================== */
+
+section#form-section-message {
+	width: 100%;
+	height: 200px;
+	
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+section.message-succes {
+	background-color: green;
+	border: 3px solid darkgreen;
+}
+
+section.message-error {
+	background-color: red;
+	border: 3px solid darkred;
+}
+
+p#form-section-message-text {
+	margin: 10px;
+}
