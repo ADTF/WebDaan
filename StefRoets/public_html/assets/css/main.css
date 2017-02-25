@@ -49,6 +49,7 @@ p {font-size: 16px;}
     width: 300px;
 }
 
+
 /* ======================================= BUTTONS ======================================= */
 
 section#menu-wrapper {
@@ -106,7 +107,7 @@ img.menu-img {
 p.menu-text {
     display: block;
     margin-top: 10px;
-    color: white;
+    color: black;
     /*color: rgb(127, 78, 49);*/
     /*font-weight: bold;*/
     font-size: 32px;
