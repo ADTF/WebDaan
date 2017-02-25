@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 
-.navbar {
+/*.navbar {
     padding-top: 15px;
     padding-bottom: 15px;
     border: 0;
@@ -14,7 +14,7 @@ body {
 }
 .navbar-nav  li a:hover {
     color: #1abc9c !important;
-}
+}*/
 
 
 .c-hero-flex {
