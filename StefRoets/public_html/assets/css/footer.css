@@ -1,8 +1,6 @@
 section#footer-wrapper {
 	width: 100%;
 	min-height: 60px;
-	
-	margin-top: -3px;
 	text-align: center;
 	line-height: 60px;
 	font-weight: bold;
@@ -22,7 +20,6 @@ div#footer-wrapper-inner {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	
 	padding-left: 25px;
 	padding-right: 25px;
 	
@@ -39,9 +36,9 @@ a.footer-link:visited {
 }
 
 img.footer-image {
-	height: 30px;
-	width: 30px;
-	margin-bottom: -7px;
+	height: 20px;
+	width: 20px;
+	
 }	
 
 @media (max-width: 960px) {
@@ -54,6 +51,6 @@ img.footer-image {
     img.footer-image {
 	height: 10px;
 	width: 10px;
-	margin-bottom: -7px;
+
 }	
 }
