@@ -1,7 +1,4 @@
-body {
-	/*height: 100vh;*/
-	color: black;
-}
+html {background-color:black;}
 
 img {
     display: block;
@@ -24,8 +21,7 @@ img {
 }*/
 
 .visie {
-    width:100%;
-    height:100%;
+
     background-color:black;
     margin-left:auto;
     margin-right:auto;
@@ -40,9 +36,17 @@ img {
 
 .info-right {
     background-color:black;
+    margin-top:100px;
+    margin-right:50px;
     height:100%;
     width:48%;
     float:right;
     color:white;
+    text-align:left;
     font-size: 16px;
+}
+
+.fblogo {
+    max-with:20px;
+    max-height:21px;
 }
