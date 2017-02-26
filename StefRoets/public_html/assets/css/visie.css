@@ -1,9 +1,7 @@
 html {background-color:black;}
 
-.slidepics {
-    display: block;
+img {   
     margin: auto;
-    max-width: auto;
     max-height: 500px;
 }
 
