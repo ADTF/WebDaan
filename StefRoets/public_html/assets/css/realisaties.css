@@ -22,7 +22,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 @media (max-width: 960px) {
   .c-hero-flex {

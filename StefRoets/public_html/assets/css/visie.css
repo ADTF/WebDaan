@@ -3,7 +3,7 @@ html {background-color:black;}
 img {   
     margin: auto;
     max-width:90%;
-    max-height: 500px;
+    max-height: 80vh;
 }
 
 /*.navbar {
@@ -24,6 +24,7 @@ img {
     background-color:black;
     margin-left:auto;
     margin-right:auto;
+    width: 100vw;
 }
 
 .pictures-left {
