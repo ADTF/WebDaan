@@ -6,7 +6,7 @@ body {
 }
 
 div#contact-wrapper {
-	width: 1000px;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 25px;
@@ -247,4 +247,18 @@ section.message-error {
 
 p#form-section-message-text {
 	margin: 10px;
+}
+
+@media (max-width:450px) {
+    label.form-label {
+        font-size: 14px;
+    }
+    
+    textarea.form-area {
+        font-size: 14px;
+    }
+    
+    input.form-input {
+        font-size:14px;
+    }
 }

@@ -168,7 +168,7 @@ section#logo {
 img#logo-img {
     width: 25%;
     height: 100%;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
 div#logo-arrow-wrapper {
@@ -182,3 +182,45 @@ img#logo-arrow {
     height: 50px;
     opacity: 0.5;
 }
+
+@media (max-width:800px){
+    img#logo-img {
+        margin-top:10%;
+    }
+}
+@media (max-width:730px){
+    p.menu-text {
+        font-size:20px;
+    }
+    
+    img#logo-img {
+        margin-top:15%;
+    }
+}
+
+@media (max-width:600px){
+    img#logo-img {
+        margin-top:20%;
+    }
+}
+@media (max-width:500px){
+    img#logo-img {
+        margin-top:25%;
+    }
+}
+
+@media (max-width:450px){
+    p.menu-text {
+        font-size: 14px;
+    }
+    
+    #menu-wrapper {
+        margin-top:20%;
+    }
+    
+    
+    img#logo-img {
+        margin-top:30%;
+    }
+}
+
