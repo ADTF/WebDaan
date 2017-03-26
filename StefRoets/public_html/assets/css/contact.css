@@ -41,15 +41,16 @@ section#contact-content-bottom {
 
 p#contact-me-text {
 	margin-top: 100px;
-	width: 58%;
+	width: 50%;
 	float: left;
+        margin-left:3%;
 }
 
 #map {
 	width: 40%;
         height:400px;
 	float: left;
-	margin-right: 2%;
+	margin-left: 1%;
 }
 
 /* ======================================== BOTTOM ======================================= */
@@ -57,15 +58,16 @@ p#contact-me-text {
 
 section#form-left {
 	float: left;
-	width: 50%;
-	margin: 0;
+	width: 49%;
+	margin-left:1%;
 	/*background-color: red;*/
 }
 
 section#form-right {
 	float: left;
-	width: 50%;
-	margin-top:-5px;
+	width: 49%;
+	margin-top:43px;
+        margin-right:1%;
         
 	/*background-color: red;*/
 }
@@ -241,9 +243,36 @@ p#form-section-message-text {
 	margin: 10px;
 }
 
+@media (max-width:750px) {
+    p#contact-me-text {
+        margin-left:5%;
+        width:80%;
+    }
+    
+    #map {
+        width:80%;
+        margin-left:5%;
+    }
+    
+    section#form-right {
+        margin-top:30px;
+    }
+}
+@media (max-width:550px) {
+    p#contact-me-text {
+        font-size:14px;
+    }
+}
 @media (max-width:450px) {
+    section#form-right {
+        margin-top:15px;
+    }
     label.form-label {
         font-size: 14px;
+    }
+    
+    p#contact-me-text {
+        font-size:12px;
     }
     
     textarea.form-area {
@@ -252,5 +281,12 @@ p#form-section-message-text {
     
     input.form-input {
         font-size:14px;
+    }
+}
+
+@media (max-width:350px) {
+    section#form-right {
+        width:54%;
+        margin-left:1%;
     }
 }
