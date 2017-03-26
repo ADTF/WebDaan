@@ -2,7 +2,7 @@
 
 body {
 	/*height: 100vh;*/
-	color: rgb(224, 224, 224);
+	background-color: #000000;
 }
 
 div#contact-wrapper {
@@ -14,6 +14,7 @@ div#contact-wrapper {
 	padding-top: 20px;
 	padding-bottom: 70px;
 	dipslay: block;
+        background-color:black;
 }
 
 /* ======================================== LAYOUT ======================================= */
@@ -21,7 +22,9 @@ div#contact-wrapper {
 section#contact-content-top {
 	width: 100%;
 	/*background-color: red;*/
-	display: none;
+	display: block;
+        color:white;
+ 
 	/*overflow: auto;*/
 }
 
@@ -37,29 +40,19 @@ section#contact-content-bottom {
 /* ========================================= TOP ========================================= */
 
 p#contact-me-text {
-	margin-bottom: 15px;
-	width: 74%;
+	margin-top: 100px;
+	width: 68%;
 	float: left;
 }
 
-img#contact-me-img {
-	width: 24%;
+div#map {
+	width: 100%;
 	float: left;
 	margin-right: 2%;
 }
 
 /* ======================================== BOTTOM ======================================= */
 
-h1#contact-title {
-	font-size: 30px;
-	display: none;
-}
-
-hr#contact-line {
-	margin-bottom: 10px;
-	
-	display: none;
-}
 
 section#form-left {
 	float: left;
@@ -71,7 +64,8 @@ section#form-left {
 section#form-right {
 	float: left;
 	width: 50%;
-	margin: 0;
+	margin-top:-5px;
+        
 	/*background-color: red;*/
 }
 
@@ -80,9 +74,6 @@ section#form-right {
 section#form-wrapper {
 	/*display: table;*/
 	width: 100%;
-	padding-left: 15px;
-	padding-right: 15px;
-	
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
