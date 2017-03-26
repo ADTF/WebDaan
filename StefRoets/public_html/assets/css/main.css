@@ -72,7 +72,7 @@ section#menu-wrapper {
     padding-top: 5%;
 }
 
-section.menu-button {
+div.menu-button {
     width: 25%;
     height: 100%;
     /*background-color: red;*/
@@ -85,7 +85,7 @@ section.menu-button {
     text-align: center;
 }
 
-section.menu-button:first-child {
+div.menu-button:first-child {
     margin-left: 0;
 }
 
@@ -138,7 +138,7 @@ section.menu-description {
     /*background-color: red;*/
 }
 
-section.menu-button:hover img {
+div.menu-button:hover img {
     -webkit-transform:scale(1.03); /* Safari and Chrome */
     -moz-transform:scale(1.03); /* Firefox */
     -ms-transform:scale(1.03); /* IE 9 */
@@ -146,7 +146,7 @@ section.menu-button:hover img {
     transform:scale(1.03);
 }
 
-section.menu-button img {
+div.menu-button img {
     -webkit-transition: all 0.5s ease; /* Safari and Chrome */
     -moz-transition: all 0.5s ease; /* Firefox */
     -ms-transition: all 0.5s ease; /* IE 9 */
