@@ -1,7 +1,7 @@
     /* ========================================= MAIN ======================================== */
 
 body {
-	/*height: 100vh;*/
+	height: 100%;   
 	background-color: #000000;
 }
 
@@ -29,7 +29,7 @@ section#contact-content-top {
 }
 
 section#contact-content-bottom {
-	width: 100%;
+	width: 100vw;
 	/*height: 45%;
 	height: 500px;*/
 	/*margin-top: 40px;*/
