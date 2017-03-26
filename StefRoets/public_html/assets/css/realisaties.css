@@ -64,9 +64,6 @@ navbar {
    background: #222 url('../images/realisaties/Klant1/compressed/klant10.jpg');
    text-align: center;
 }
-.c-hero-flex__item:nth-child(4) {
-   background: #222 url('../images/realisaties/Klant2/compressed/klant20.jpg');
-}
 .c-hero-flex__title {
   text-transform: uppercase;
   letter-spacing: .075em;
