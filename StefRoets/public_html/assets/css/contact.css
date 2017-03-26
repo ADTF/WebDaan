@@ -263,6 +263,17 @@ p#form-section-message-text {
         font-size:14px;
     }
 }
+@media (max-width:530px) {
+    section#form-right {
+        margin-top:23px;
+    }
+}
+
+@media (max-width:500px) {
+    section#form-right {
+        margin-top:20px;
+    }
+}
 @media (max-width:450px) {
     section#form-right {
         margin-top:15px;
