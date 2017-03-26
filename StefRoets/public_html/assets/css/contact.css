@@ -41,12 +41,13 @@ section#contact-content-bottom {
 
 p#contact-me-text {
 	margin-top: 100px;
-	width: 68%;
+	width: 58%;
 	float: left;
 }
 
-div#map {
-	width: 100%;
+#map {
+	width: 40%;
+        height:400px;
 	float: left;
 	margin-right: 2%;
 }
