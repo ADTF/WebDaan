@@ -56,13 +56,15 @@ navbar {
 }
 .c-hero-flex__item:nth-child(1) {
   background: #222 url('../images/realisaties/buitenschrijnwerk/Bijhuis_brouwerij/brouwerij1.jpg');
+  background-size: 100% 100%;
 }
 .c-hero-flex__item:nth-child(2) {
-  background: #222 url('../images/realisaties/Paradise/compressed/Paradise0.jpg');
+  background: #222 url('../images/realisaties/interieurs/Architectenbureau/architect3.jpg');
+background-size: 100% 100%;
 }
 .c-hero-flex__item:nth-child(3) {
-   background: #222 url('../images/realisaties/Klant1/compressed/klant10.jpg');
-   text-align: center;
+   background: #222 url('../images/realisaties/Events/Paradise City/paradise1.jpg');
+   background-size: 100% 100%;
 }
 .c-hero-flex__title {
   text-transform: uppercase;
