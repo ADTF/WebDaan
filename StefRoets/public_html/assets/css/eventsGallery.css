@@ -52,23 +52,23 @@ body
 
 
 .tile:nth-child(1) {
-  background: url('../images/realisaties/events/Bowlingbaan/bowling1.JPG');
+  background: url('../images/realisaties/Events/Bowlingbaan/bowling1.JPG');
   background-size: 100% 100%;
 }
 .tile:nth-child(2) {
-  background: url('../images/realisaties/events/Kerstmarkt Antwerpen/kerst1.jpg');
+  background: url('../images/realisaties/Events/Kerstmarkt Antwerpen/kerst1.jpg');
   background-size: 100% 100%;
 }
 .tile:nth-child(3) {
-  background: url('../images/realisaties/events/Kerstmarkt Gent/kerstgent1.jpg');
+  background: url('../images/realisaties/Events/Kerstmarkt Gent/kerstgent1.jpg');
   background-size: 100% 100%;
 }
 .tile2:nth-child(1) {
-  background: url('../images/realisaties/events/Paradise City/paradise1.jpg');
+  background: url('../images/realisaties/Events/Paradise City/paradise1.jpg');
   background-size: 100% 100%;
 }
 .tile2:nth-child(2) {
-  background: url('../images/realisaties/events/Student Kick-Off/kickoff1.jpg');
+  background: url('../images/realisaties/Events/Student Kick-Off/kickoff1.jpg');
   background-size: 100% 100%;
 }
 .tile img
