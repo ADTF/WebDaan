@@ -3,6 +3,8 @@
 body {
 	height: 100%;   
 	background-color: #000000;
+        background: url('../images/background/preview/compressed/hout2.png');
+        
 }
 
 div#contact-wrapper {
@@ -14,7 +16,6 @@ div#contact-wrapper {
 	padding-top: 20px;
 	padding-bottom: 70px;
 	dipslay: block;
-        background-color:black;
 }
 
 /* ======================================== LAYOUT ======================================= */

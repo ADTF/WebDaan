@@ -1,20 +1,22 @@
 body {
     font: 20px Montserrat, sans-serif;
     line-height: 1.8;
-    color: #f5f6f7;
-}
+    color: white;
+;}
 p {font-size: 16px;}
 .margin {margin-bottom: 45px;}
 
 .bg-1 {
     background-color: #000000; /* Black */
+    background: url('../images/background/zaag.jpeg');
+    background-size: 100% 100%;
     color: #ffffff;
     width: 100vw;
     height: 100vh;
 }
 .bg-2 {
-    background: url('../images/background/main/compressed/Optimized-background-margin-4-min.jpg');
-    color: #ffffff;
+    background: url('../images/background/preview/compressed/hout1.png');
+    color: white;
     width: 100vw;
     height: 100vh;
 }
@@ -112,7 +114,7 @@ img.menu-img {
 p.menu-text {
     display: block;
     margin-top: 10px;
-    color: black;
+    color: white;
     /*color: rgb(127, 78, 49);*/
     /*font-weight: bold;*/
     font-size: 32px;
@@ -191,6 +193,7 @@ img#logo-arrow {
 @media (max-width:730px){
     p.menu-text {
         font-size:20px;
+        
     }
     
     img#logo-img {

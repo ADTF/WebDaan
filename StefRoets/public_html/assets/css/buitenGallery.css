@@ -1,6 +1,8 @@
 body
 {
-  background-color:#eee
+  background-color:#eee;
+   background: url('../images/background/preview/compressed/hout1.png');
+   background-size: 100% 100%;
 }
 .wrap
 {
