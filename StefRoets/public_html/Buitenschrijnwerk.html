@@ -9,24 +9,22 @@
         <link rel="stylesheet" type="text/css" href="assets/css/bootstrapcss.css">
         <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
         <link rel="stylesheet" type="text/css" href="assets/css/nextgallery.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrapcss.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/js/contact.js"></script>  
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <script src="assets/js/gallery.js"></script>
     </head>
     <body>
 <!-- Navbar -->
 <nav class="navbar navbar-default">
     <div class="container">
         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
             <a class="navbar-brand" href="index.html">Stef Roets - Houtbewerking</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
@@ -52,11 +50,9 @@
 </nav>
 <!-- gallery cards -->
 <div class="wrap">
-<div class="tile"> 
-  <img src='https://images.unsplash.com/photo-1464054313797-e27fb58e90a9?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=996&q=80'/>
+<div id="kerstmarkt" onClick="openGallery(this.id)" class="tile"> 
   <div class="text">
   <h1>Bijhuis:  Brouwerij.</h1>
-  
 <div class="dots">
     <span></span>
     <span></span>
@@ -66,8 +62,7 @@
  </div>
 
 
-<div class="tile"> 
-  <img src='https://images.unsplash.com/photo-1458668383970-8ddd3927deed?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1004&q=80'/>
+<div id="kessel" onClick="openGallery(this.id)" class="tile"> 
   <div class="text">
   <h1>Kessel Lo</h1>
 <div class="dots">
@@ -75,8 +70,7 @@
   </div>
  </div>
   
-  <div class="tile"> 
-  <img src='https://images.unsplash.com/photo-1422393462206-207b0fbd8d6b?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80'/>
+  <div id="westpunt" onClick="openGallery(this.id)" class="tile"> 
   <div class="text">
   <h1>Westpunt</h1>
 <div class="dots">

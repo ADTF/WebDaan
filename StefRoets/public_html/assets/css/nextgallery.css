@@ -12,6 +12,7 @@ body
 }
 .tile
 {
+    
   width:380px;
   height:380px;
   margin:10px;
@@ -26,6 +27,19 @@ body
   color:white;
   font-family:'Roboto';
   
+}
+
+.tile:nth-child(1) {
+  background: url('../images/realisaties/buitenschrijnwerk/Bijhuis_brouwerij/brouwerij1.jpg');
+  background-size: 100% 100%;
+}
+.tile:nth-child(2) {
+  background: #222 url('../images/realisaties/buitenschrijnwerk/Kessel Lo/kessel1.jpg');
+  background-size: 100% 100%;
+}
+.tile:nth-child(3) {
+   background: #222 url('../images/realisaties/buitenschrijnwerk/Westpunt/westpunt2.jpg');
+   background-size: 100% 100%;
 }
 .tile img
 {
