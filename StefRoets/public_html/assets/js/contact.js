@@ -62,7 +62,8 @@ $(document).ready(function() {
 				
 			},
 			error: function(msg) {
-				console.log('not working '+msg.toString());
+				console.log('not working '+msg);
+                                $("#form-section-message-text").text("Er liep iets fout, probeer opnieuw.");
 			}
 		});
 		
