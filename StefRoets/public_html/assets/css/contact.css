@@ -242,6 +242,7 @@ section.message-error {
 
 p#form-section-message-text {
 	margin: 10px;
+        color:white;
 }
 
 @media (max-width:750px) {
