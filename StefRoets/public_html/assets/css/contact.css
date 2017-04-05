@@ -240,7 +240,7 @@ section.message-error {
 	border: 3px solid darkred;
 }
 
-p#form-section-message-text {
+.form-section-message {
 	margin: 10px;
         color:white;
 }

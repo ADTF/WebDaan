@@ -57,8 +57,7 @@ $(document).ready(function() {
 			data: dataString,
 			success: function(msg) {
 				console.log('working: '+msg);
-				$("#form-section-message-text").text("Bedankt voor u mail. <br>U ontvangt zo snel mogelijk een antwoord.");
-				$("#form-section-message").attr("class", "message-succes");
+				$("#form-section-message-text").text("Bedankt voor u mail. \nU ontvangt zo snel mogelijk een antwoord.").fontcolor("white");
 				
 			},
 			error: function(msg) {
