@@ -1,6 +1,8 @@
 body {
   font-family: 'Rubik', 'Segoe UI', 'San Francisco', 'Calibri', Arial, sans-serif;
   margin: 0;
+   background: url('../images/background/preview/compressed/hout3.png');
+
 }
 
 navbar {
@@ -16,12 +18,16 @@ navbar {
     color: #1abc9c !important;
 }
 
-
+.realisatieText {
+    text-align: center;
+    color: white;
+    height: 10vh;
+}
 .c-hero-flex {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 75vh;
   width: 100%;
 }
 @media (max-width: 960px) {

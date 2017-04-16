@@ -36,13 +36,13 @@ img {
 
 .info-right {
     font-family: 'Segoe UI';
-    margin-top:100px;
     margin-right:45px;
+    margin-top: 2%;
     height:100%;
     width:48%;
     float:right;
     color:white;
-    text-align:left;
+    text-align:center;
     font-size: 18px;
 }
 
