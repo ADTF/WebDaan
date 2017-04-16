@@ -22,6 +22,7 @@ navbar {
     text-align: center;
     color: white;
     height: 10vh;
+    font-family: 'Segoe UI';
 }
 .c-hero-flex {
   display: flex;
