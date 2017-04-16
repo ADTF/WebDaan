@@ -1,8 +1,9 @@
-html {
-background-color:black;
-background: url('../images/background/preview/compressed/hout3.png');
+body {
+	height: 100%;   
+	background-color: #000000;
+        background: url('../images/background/preview/compressed/hout2.png');
+        
 }
-
 img {   
     margin: auto;
     max-width:90%;
